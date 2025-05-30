@@ -1,0 +1,8 @@
+streamlit
+vosk
+openai
+TTS
+sounddevice
+numpy
+scipy
+requests
