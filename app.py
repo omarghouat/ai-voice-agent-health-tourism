@@ -11,7 +11,7 @@ os.system("apt-get update && apt-get install -y ffmpeg")
 
 @st.cache_resource
 def load_whisper_model():
-    return whisper.load_model("base")
+    return whisper.load_model("tiny")
 
 model = load_whisper_model()
 
