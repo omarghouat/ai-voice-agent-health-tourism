@@ -8,5 +8,6 @@ scipy
 requests
 torch>=2.1
 SpeechRecognition
-simpleaudio
+simpleaudio==1.0.4
+
 
