@@ -7,6 +7,14 @@ import os
 from utils.llm import generate_response
 from utils.tts import speak  # Make sure speak() saves to output.wav
 
+os.system("apt-get update && apt-get install -y ffmpeg")
+
+@st.cache_resource
+def load_whisper_model():
+    return whisper.load_model("base")
+
+model = load_whisper_model()
+
 # Whisper model
 model = whisper.load_model("base")
 
