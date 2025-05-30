@@ -5,4 +5,4 @@ tts==0.22.0
 numpy
 scipy
 requests
-torch==2.0.1
+torch>=2.1
