@@ -2,10 +2,7 @@ streamlit
 vosk
 openai
 tts==0.22.0
-sounddevice
 numpy
 scipy
 requests
 torch==2.0.1
-numpy
-
