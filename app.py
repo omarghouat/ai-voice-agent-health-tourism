@@ -15,6 +15,8 @@ def load_whisper_model():
 
 model = load_whisper_model()
 
+st.success("✅ Whisper model loaded successfully.")
+
 # Whisper model
 model = whisper.load_model("base")
 
